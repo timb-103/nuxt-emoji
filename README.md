@@ -66,8 +66,6 @@ You can pass in a custom button using a `button` named slot. This will be the bu
 
 You can pass props to the component to change the style & placement. We'll continue to add on this as requested.
 
----
-
 **`placement`**
 
 Where the tippy popup showing the emoji picker will show. Options are:
