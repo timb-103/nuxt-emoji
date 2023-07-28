@@ -7,7 +7,7 @@ An Emoji picker component for your Nuxt 3 project.
 - 🍪 Saves recently used into a cookie
 - 🗨 Uses Tippy js to display picker ([vue-tippy](https://github.com/KABBOUCHI/vue-tippy))
 
-![Nuxt Emoji](https://i.ibb.co/Gdhy9Wq/image-2023-07-28-165052223.png 'Nuxt Emoji')
+![Nuxt Emoji](https://i.ibb.co/Gdhy9Wq/image-2023-07-28-165052223.png)
 
 ## Usage
 
@@ -50,9 +50,15 @@ function select(emoji) {
 </script>
 ```
 
+## Events
+
+**`on-select`**
+
+When the user clicks an emoji, we fire an on-select event that contains the emoji so you can do something with it.
+
 ## Slots
 
-`button`
+**`button`**
 
 You can pass in a custom button using a `button` named slot. This will be the button that launches the component when clicked.
 
@@ -60,7 +66,9 @@ You can pass in a custom button using a `button` named slot. This will be the bu
 
 You can pass props to the component to change the style & placement. We'll continue to add on this as requested.
 
-`placement`
+---
+
+**`placement`**
 
 Where the tippy popup showing the emoji picker will show. Options are:
 
@@ -83,6 +91,8 @@ Where the tippy popup showing the emoji picker will show. Options are:
 - auto-start
 - auto-end
 
-`Theme`
+---
+
+**`Theme`**
 
 The main theme of component. Only options are `light` (default) and `dark`
