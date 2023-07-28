@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-emoji",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "postinstall": "nuxt prepare .playground"
+  },
+  "devDependencies": {
+    "nuxt": "3.6.2",
+    "typescript": "4.9.3"
+  },
+  "dependencies": {
+    "vue-tippy": "6.2.0"
+  },
+  "description": "An Emoji component for your Nuxt 3 project.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timb-103/nuxt-emoji.git"
+  },
+  "keywords": [
+    "nuxt",
+    "emoji"
+  ],
+  "author": "Tim B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timb-103/nuxt-emoji/issues"
+  },
+  "homepage": "https://github.com/timb-103/nuxt-emoji#readme"
+}
