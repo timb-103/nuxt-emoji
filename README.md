@@ -7,6 +7,8 @@ An Emoji picker component for your Nuxt 3 project.
 - 🍪 Saves recently used into a cookie
 - 🗨 Uses Tippy js to display picker ([vue-tippy](https://github.com/KABBOUCHI/vue-tippy))
 
+[Open the playground on StackBlitz](https://stackblitz.com/github/timb-103/nuxt-emoji/tree/master?file=.playground%2Fapp.vue).
+
 ![Nuxt Emoji](https://i.ibb.co/Gdhy9Wq/image-2023-07-28-165052223.png)
 
 ## Usage
